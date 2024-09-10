@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    color:#212121; 
+}
+.d-flex input{
+    border: 0;
+    padding: 20px;
+    border: none;
+    background: #f0f3f0ee;
+    font-size: 20px;
+    outline: none;
+    width: 450px;
+}
+.d-flex button{
+    font-size: 20px;
+    border: 0;
+    border-radius: 0;
+    padding: 20px;
+background: #ff5722 !important;
+}
+#cart-account{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+    
+}
+@media only screen and (max-width: 800px) {
+    #cart-account{
+        margin: 20px;
+        position: relative;
+    }
+    #cart #account{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #cart-account #cart > button{
+        font-size: 15px;
+        padding: 15px;
+        border-radius: 46%;
+       }
+       #cart-account  #account > button{
+           font-size: 10px;
+           padding: 15px; 
+           border-radius: 46%;
+       }
+  }
+  @media only screen and (max-width: 500px) {
+    #cart-account{
+        margin: 10px;
+        position: relative;
+    }
+    .d-flex{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    .d-flex input{
+     width: 200px;
+     font-size: 15px;
+     padding: 10px;
+    }
+    .d-flex button{
+      padding: 10px;
+      font-size: 10px;
+      
+    }
+    #cart #account{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #cart-account #cart > button{
+        font-size: 10px;
+        padding: 10px;
+        border-radius: 46%;
+       }
+       #cart-account  #account > button{
+           font-size: 15px;
+           padding: 15px; 
+           border-radius: 46%;
+       }
+
+  }
+#cart-account #cart > button{
+ font-size: 20px;
+ padding: 20px;
+}
+#cart-account  #account > button{
+    font-size: 20px;
+    padding: 20px; 
+}
+
+
+#contents{
+    position: fixed;
+    inset: 0px;
+    width: 12rem;
+    height: 5rem;
+    max-width: 100vw;
+    max-height: 100dvh;
+    margin: auto;
+}
+
+
+
+
+
+.container {
+    max-width: 800px;
+}
+
+h1 .highlight {
+    color: #ff5722;
+    font-weight: 900;
+}
+
+.steps ol {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.contact {
+    margin-top: 30px;
+}
+
+.contact p {
+    font-size: 16px;
+}
+
+a {
+    color: #ff5722;
+}
+
+a:hover {
+    color: #ff5622ae;
+}
+
+.btn-primary {
+    background-color: #ff5722;
+    border-color: #ff5722;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    color: #212121;
+    border-color: #ff5722;
+}
