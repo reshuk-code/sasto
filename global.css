@@ -34,9 +34,7 @@ background: #ff5722 !important;
         position: relative;
     }
     #cart #account{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+       display: none;
     }
     #cart-account #cart > button{
         font-size: 15px;
@@ -70,9 +68,7 @@ background: #ff5722 !important;
       
     }
     #cart #account{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+       display: none;
     }
     #cart-account #cart > button{
         font-size: 10px;
@@ -84,7 +80,6 @@ background: #ff5722 !important;
            padding: 15px; 
            border-radius: 46%;
        }
-
   }
 #cart-account #cart > button{
  font-size: 20px;
@@ -96,23 +91,32 @@ background: #ff5722 !important;
 }
 
 
-#contents{
-    position: fixed;
-    inset: 0px;
-    width: 12rem;
-    height: 5rem;
-    max-width: 100vw;
-    max-height: 100dvh;
-    margin: auto;
+.carousel-inner img {
+    height: 400px;
+    width: fit-content; /* Set a fixed height */
+    object-fit: cover;
+    position:relative;
+    overflow: hidden; /* Ensures images maintain aspect ratio */
+}
+
+@media (max-width: 768px) {
+    .carousel-inner img {
+        height: 250px; /* Smaller height for mobile */
+    }
 }
 
 
 
-
-
-.container {
-    max-width: 800px;
+.card {
+    box-shadow: 10px 10px 10px  #21212125;
+    transition: 0.6s ease-in-out;
 }
+.card:hover{
+    box-shadow: none;
+}
+
+
+
 
 h1 .highlight {
     color: #ff5722;
@@ -150,3 +154,5 @@ a:hover {
     color: #212121;
     border-color: #ff5722;
 }
+
+
