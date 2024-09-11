@@ -1,5 +1,5 @@
 const products = [
-    // Existing products...
+   
     {
         "name": "Iphone-13",
         "description": "Iphone-13 with 128GB storage",
@@ -278,7 +278,7 @@ const products = [
 ];
 
 
-// Function to display products
+
 function displayProducts(products) {
     let html = '';
     products.forEach(item => {
@@ -299,7 +299,6 @@ function displayProducts(products) {
 }
 
 
-// Initial product display
 displayProducts(products);
 
 
@@ -309,7 +308,7 @@ function addtocart(){
     document.getElementById('noofitems').innerHTML=defvalue;
 }
 
-// Function to search products by name or tags
+
 function searchProducts(query) {
     const searchResult = products.filter(item => 
         item.name.toLowerCase().includes(query.toLowerCase()) ||
@@ -318,7 +317,6 @@ function searchProducts(query) {
     displayProducts(searchResult);
 }
 
-// Search bar event listener
 document.querySelector('form').addEventListener('submit', function(event) {
     event.preventDefault();
     const searchQuery = event.target.querySelector('input[type="search"]').value;
