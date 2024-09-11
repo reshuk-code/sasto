@@ -93,15 +93,15 @@ background: #ff5722 !important;
 
 .carousel-inner img {
     height: 400px;
-    width: fit-content; /* Set a fixed height */
+    width: fit-content; 
     object-fit: cover;
     position:relative;
-    overflow: hidden; /* Ensures images maintain aspect ratio */
+    overflow: hidden; 
 }
 
 @media (max-width: 768px) {
     .carousel-inner img {
-        height: 250px; /* Smaller height for mobile */
+        height: 250px; 
     }
 }
 
