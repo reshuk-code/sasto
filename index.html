@@ -33,7 +33,7 @@
                 <button class="btn"><i class="fa-solid fa-user"></i></button>
             </div>
             <div id="cart" class="position-relative">
-                <button class="btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button  id="cart-btn" class="btn" onclick="opencart()"><i class="fa-solid fa-cart-shopping"></i></button>
                 <span id="noofitems" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">0</span>
             </div>
         </div>
@@ -52,6 +52,16 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 
 <script src="/javascript/script.js"></script>
+
+
+<script>
+    const opencartbtn = document.getElementById('cart-btn');
+
+    function opencart(){
+        window.location="/cart.html"
+    }
+
+</script>
 
 </body>
 </html>
