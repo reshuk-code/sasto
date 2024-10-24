@@ -156,125 +156,6 @@ const products = [
         "image": "https://www.dummyimage.com/300x200/000/fff&text=Kindle+Paperwhite",
         "tags": ["electronics", "e-reader", "amazon", "books", "display"]
     },
-    {
-        "name": "Razer BlackWidow",
-        "description": "Mechanical Gaming Keyboard",
-        "price": "rs " + 8500,
-        "image": "https://www.dummyimage.com/300x200/000/fff&text=Razer+BlackWidow",
-        "tags": ["gaming", "keyboard", "razer", "electronics", "mechanical"]
-    },
-    {
-        "name": "Oculus Quest 2",
-        "description": "VR Headset with 64GB Storage",
-        "price": "rs " + 35000,
-        "image": "https://www.dummyimage.com/300x200/000/fff&text=Oculus+Quest+2",
-        "tags": ["gaming", "vr", "headset", "electronics", "virtual-reality"]
-    },
-    {
-        "name": "Bose QuietComfort 35 II",
-        "description": "Wireless Noise-Cancelling Headphones",
-        "price": "rs " + 20000,
-        "image": "https://www.dummyimage.com/300x200/000/fff&text=Bose+QuietComfort+35+II",
-        "tags": ["electronics", "headphones", "bose", "audio", "wireless"]
-    },
-    {
-        "name": "Fitbit Charge 5",
-        "description": "Fitness Tracker with GPS",
-        "price": "rs " + 15000,
-        "image": "https://www.dummyimage.com/300x200/000/fff&text=Fitbit+Charge+5",
-        "tags": ["wearable", "fitness", "tracker", "fitbit", "electronics"]
-    },
-    {
-        "name": "Samsung 4K TV",
-        "description": "55-inch 4K Ultra HD Smart TV",
-        "price": "rs " + 55000,
-        "image": "https://www.dummyimage.com/300x200/000/fff&text=Samsung+4K+TV",
-        "tags": ["electronics", "tv", "samsung", "4k", "smart"]
-    },
-    {
-        "name": "HP Envy 15",
-        "description": "High-Performance Laptop with Intel i7",
-        "price": "rs " + 130000,
-        "image": "https://www.dummyimage.com/300x200/000/fff&text=HP+Envy+15",
-        "tags": ["laptop", "hp", "computer", "technology", "electronics"]
-    },
-    {
-        "name": "Apple Watch Series 8",
-        "description": "Smartwatch with Health Tracking",
-        "price": "rs " + 22000,
-        "image": "https://www.dummyimage.com/300x200/000/fff&text=Apple+Watch+Series+8",
-        "tags": ["wearable", "apple", "smartwatch", "health", "electronics"]
-    },
-    {
-        "name": "JBL Flip 5",
-        "description": "Portable Bluetooth Speaker with Deep Bass",
-        "price": "rs " + 8000,
-        "image": "https://www.dummyimage.com/300x200/000/fff&text=JBL+Flip+5",
-        "tags": ["electronics", "speaker", "jbl", "portable", "bluetooth"]
-    },
-    {
-        "name": "Lenovo ThinkPad X1 Carbon",
-        "description": "Business Laptop with Intel i7",
-        "price": "rs " + 140000,
-        "image": "https://www.dummyimage.com/300x200/000/fff&text=Lenovo+ThinkPad+X1+Carbon",
-        "tags": ["laptop", "lenovo", "business", "computer", "electronics"]
-    },
-    {
-        "name": "Sony WH-1000XM4",
-        "description": "Noise-Cancelling Wireless Headphones",
-        "price": "rs " + 18000,
-        "image": "https://www.dummyimage.com/300x200/000/fff&text=Sony+WH-1000XM4",
-        "tags": ["electronics", "headphones", "sony", "noise-cancelling", "wireless"]
-    },
-    {
-        "name": "Asus ROG Strix",
-        "description": "Gaming Laptop with RTX 3060",
-        "price": "rs " + 120000,
-        "image": "https://www.dummyimage.com/300x200/000/fff&text=Asus+ROG+Strix",
-        "tags": ["laptop", "gaming", "asus", "electronics", "rtx"]
-    },
-    {
-        "name": "Harman Kardon Onyx Studio 6",
-        "description": "Portable Wireless Bluetooth Speaker",
-        "price": "rs " + 15000,
-        "image": "https://www.dummyimage.com/300x200/000/fff&text=Harman+Kardon+Onyx+Studio+6",
-        "tags": ["electronics", "speaker", "harman-kardon", "portable", "bluetooth"]
-    },
-    {
-        "name": "Google Nest Hub",
-        "description": "Smart Display with Google Assistant",
-        "price": "rs " + 8000,
-        "image": "https://www.dummyimage.com/300x200/000/fff&text=Google+Nest+Hub",
-        "tags": ["electronics", "smart", "google", "assistant", "home"]
-    },
-    {
-        "name": "Xiaomi Mi Band 6",
-        "description": "Fitness Band with AMOLED Display",
-        "price": "rs " + 3000,
-        "image": "https://www.dummyimage.com/300x200/000/fff&text=Xiaomi+Mi+Band+6",
-        "tags": ["wearable", "fitness", "xiaomi", "band", "electronics"]
-    },
-    {
-        "name": "Panasonic Lumix GH5",
-        "description": "Mirrorless Camera with 4K Video Recording",
-        "price": "rs " + 85000,
-        "image": "https://www.dummyimage.com/300x200/000/fff&text=Panasonic+Lumix+GH5",
-        "tags": ["camera", "mirrorless", "panasonic", "video", "electronics"]
-    },
-    {
-        "name": "Oculus Rift S",
-        "description": "PC VR Headset with 2560 x 1440 Resolution",
-        "price": "rs " + 42000,
-        "image": "https://www.dummyimage.com/300x200/000/fff&text=Oculus+Rift+S",
-        "tags": ["vr", "headset", "oculus", "gaming", "electronics"]
-    },
-    {
-        "name": "Bose SoundLink Revolve",
-        "description": "Portable Bluetooth Speaker with 360-Degree Sound",
-        "price": "rs " + 14000,
-        "image": "https://www.dummyimage.com/300x200/000/fff&text=Bose+SoundLink+Revolve",
-        "tags": ["electronics", "speaker", "bose", "portable", "bluetooth"]
-    }
 ];
 
 
@@ -302,24 +183,52 @@ function displayProducts(products) {
 displayProducts(products);
 
 
-let defvalue = 0 
-function addtocart(){
-    defvalue+=1 ;
-    document.getElementById('noofitems').innerHTML=defvalue;
-}
-
 
 function searchProducts(query) {
+    // Get the h1 element by ID
+    const resultHeading = document.getElementById('searchResultHeading'); 
+
+    // Filter the products array based on the query
     const searchResult = products.filter(item => 
         item.name.toLowerCase().includes(query.toLowerCase()) ||
         item.tags.some(tag => tag.toLowerCase().includes(query.toLowerCase()))
     );
+
+    // Check if products are found
+    if (searchResult.length === 0) {
+        resultHeading.innerHTML = "No product found"; // Show 'no product found' in h1
+    } else {
+        resultHeading.innerHTML = `Showing results for search: "${query}"`; // Show search results message
+    }
+
+    // Call the function to display the filtered products
     displayProducts(searchResult);
 }
+
 
 document.querySelector('form').addEventListener('submit', function(event) {
     event.preventDefault();
     const searchQuery = event.target.querySelector('input[type="search"]').value;
+    
     searchProducts(searchQuery);
 });
 
+function sendMail(){
+    window.location = "mailto:reshuksapkota2007@gmail.com"
+}
+
+
+let defvalue = 0 
+function addtocart(productId) {
+    const selectedProduct = products.find(product => product.id === productId);
+    let cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+    defvalue+=1 ;
+    document.getElementById('noofitems').innerHTML=defvalue;
+    cartItems.push(selectedProduct);
+    localStorage.setItem('cartItems', JSON.stringify(cartItems));
+
+    console.alert("Product added to cart!");
+
+
+
+}
